@@ -42,4 +42,11 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.hellobitrise", appContext.packageName)
     }
+
+    @Test
+    fun Test5() {
+        // Context of the app under test.
+        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+        assertEquals("com.example.hellobitrise", appContext.packageName)
+    }
 }
